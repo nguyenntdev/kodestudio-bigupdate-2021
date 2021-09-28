@@ -120,3 +120,9 @@ body {
     margin: 1em;
     border-radius: 12px;
 }
+
+.navbar-brand {
+    color: #012970 !important;
+    font-weight: 1000;
+    letter-spacing: 3px;
+}
