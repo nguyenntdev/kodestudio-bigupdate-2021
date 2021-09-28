@@ -1,6 +1,6 @@
 var headerContent = `
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow ">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="/assets/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -8,13 +8,11 @@ var headerContent = `
         <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content">
             <div class="hamburger-toggle">
                 <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <i class="fas fa-bars navbar-toggle-icon"></i>
                 </div>
             </div>
         </button>
-        <div class="collapse navbar-collapse" id="navbar-content">
+        <div class="collapse navbar-collapse justify-content-center" id="navbar-content">
 
             <div class="d-flex ms-auto">
                 <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
