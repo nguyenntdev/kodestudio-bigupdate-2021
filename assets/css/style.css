@@ -93,3 +93,32 @@
     .navbar-toggle-icon:hover {
         color: #4154f1;
     }
+
+    .hero-banner h1 {
+        font-size: 48px;
+    }
+    .hero-banner .btn {
+        position: relative;
+        overflow: hidden;
+        z-index: 9;
+        background-color: #fff;
+    }
+    .hero-banner .btn:before {
+        content: "";
+        background: #012970;
+        width: 4px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        -webkit-transition: all 0.5s ease-in-out 0s;
+        -moz-transition: all 0.5s ease-in-out 0s;
+        -ms-transition: all 0.5s ease-in-out 0s;
+        -o-transition: all 0.5s ease-in-out 0s;
+        transition: all 0.5s ease-in-out 0s;
+    }
+
+    .hero-banner {
+        background-image: url(/assets/img/hero-bg.png) !important;
+    }
