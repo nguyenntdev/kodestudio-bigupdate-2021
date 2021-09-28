@@ -119,6 +119,12 @@
         transition: all 0.5s ease-in-out 0s;
     }
 
-    .hero-banner {
-        background-image: url(/assets/img/hero-bg.png) !important;
+    .hero-bg {
+        width:100%;
+        height:500px;
+        background: url('https://2.pik.vn/2021fa6d6d8f-4ee9-48ad-b344-8715e59a1256.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        background-attachment: fixed;
     }
